@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Submission</title>
+  </head>
+  <body>
+    <h1>Contact Submission</h1>
+    <div>
+      <p><strong>Name:</strong> <span th:text="${name}"></span></p>
+      <p><strong>Email:</strong> <span th:text="${email}"></span></p>
+      <p><strong>Message:</strong> <span th:text="${message}"></span></p>
+    </div>
+    <a href="/">Back to Home</a>
+  </body>
+</html>
